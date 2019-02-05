@@ -1,3 +1,101 @@
+	<div class="top-brands">
+		<div class="container">
+		<h2>Registeration Form</h2>
+			<div class="grid_3 grid_5">
+				<div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
+					<ul id="myTab" class="nav nav-tabs" role="tablist">
+						<li role="presentation" class="active"><a href="#expeditions" id="expeditions-tab" role="tab" data-toggle="tab" aria-controls="expeditions" aria-expanded="true">As User</a></li>
+						<li role="presentation"><a href="#tours" role="tab" id="tours-tab" data-toggle="tab" aria-controls="tours">As Supermarket</a></li>
+					</ul>
+					<div id="myTabContent" class="tab-content">
+						<div role="tabpanel" class="tab-pane fade in active" id="expeditions" aria-labelledby="expeditions-tab">
+							<div class="agile-tp">
+								<h5>Register as User</h5>
+							</div>
+<!-- register as User -->
+	<div class="register">
+		<div class="container">
+			<h2>Register Here</h2>
+			<div class="login-form-grids">
+				<h5>profile information</h5>
+				<form action="#" method="post">
+					<input type="text" placeholder="First Name..." required=" " >
+					<input type="text" placeholder="Last Name..." required=" " >
+				</form>
+				<div class="register-check-box">
+					<div class="check">
+						<label class="checkbox"><input type="checkbox" name="checkbox"><i> </i>Subscribe to Newsletter</label>
+					</div>
+				</div>
+				<h6>Login information</h6>
+					<form action="#" method="post">
+					<input type="email" placeholder="Email Address" required=" " >
+					<input type="password" placeholder="Password" required=" " >
+					<input type="password" placeholder="Password Confirmation" required=" " >
+					<div class="register-check-box">
+						<div class="check">
+							<label class="checkbox"><input type="checkbox" name="checkbox"><i> </i>I accept the terms and conditions</label>
+						</div>
+					</div>
+					<input type="submit" value="Register">
+				</form>
+			</div>
+			<div class="register-home">
+				<a href="index.html">Home</a>
+			</div>
+		</div>
+	</div>
+<!-- //register -->
+							
+						</div>
+						<div role="tabpanel" class="tab-pane fade" id="tours" aria-labelledby="tours-tab">
+							<div class="agile-tp">
+								<h5>Register As Supermarket</h5>
+							</div>
+						
+<!-- register as supermarket-->
+	<div class="register">
+		<div class="container">
+			<h2>Register Here</h2>
+			<div class="login-form-grids">
+				<h5>profile information</h5>
+				<form action="#" method="post">
+					<input type="text" placeholder="First Name..." required=" " >
+					<input type="text" placeholder="Last Name..." required=" " >
+				</form>
+				<div class="register-check-box">
+					<div class="check">
+						<label class="checkbox"><input type="checkbox" name="checkbox"><i> </i>Subscribe to Newsletter</label>
+					</div>
+				</div>
+				<h6>Login information</h6>
+					<form action="#" method="post">
+					<input type="email" placeholder="Email Address" required=" " >
+					<input type="password" placeholder="Password" required=" " >
+					<input type="password" placeholder="Password Confirmation" required=" " >
+					<div class="register-check-box">
+						<div class="check">
+							<label class="checkbox"><input type="checkbox" name="checkbox"><i> </i>I accept the terms and conditions</label>
+						</div>
+					</div>
+					<input type="submit" value="Register">
+				</form>
+			</div>
+			<div class="register-home">
+				<a href="index.html">Home</a>
+			</div>
+		</div>
+	</div>
+<!-- //register -->
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
 <h2>Sign up</h2>
 
 <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
